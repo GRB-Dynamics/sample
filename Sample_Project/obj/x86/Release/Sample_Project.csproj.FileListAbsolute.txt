@@ -1,0 +1,4 @@
+C:\work\Steven_Devi_Git_Practice\sample-repository\Sample_Project\bin\Release\Sample_Project.exe
+C:\work\Steven_Devi_Git_Practice\sample-repository\Sample_Project\bin\Release\Sample_Project.pdb
+C:\work\Steven_Devi_Git_Practice\sample-repository\Sample_Project\obj\x86\Release\Sample_Project.exe
+C:\work\Steven_Devi_Git_Practice\sample-repository\Sample_Project\obj\x86\Release\Sample_Project.pdb
