@@ -13,7 +13,8 @@ public class Google
 	//////////////////////////////////////////////
 	public void SayHello()
 		{
-		System.Console.WriteLine("Hello from {0}",mName);
+		string greetings=string.Format("Hello from {0}",mName);
+		System.Windows.Forms.MessageBox.Show(greetings);
 		}
 	}
 
