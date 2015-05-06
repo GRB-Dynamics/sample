@@ -35,7 +35,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Google.cs" />
-    <Compile Include="main.cs" />
+    <Compile Include="MainStartup.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />

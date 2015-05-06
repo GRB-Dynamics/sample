@@ -1,10 +1,19 @@
-﻿namespace Phone
-{
-	class Music
+﻿
+/////////////////////////////////////////////
+public class Google
 	{
-	public static void Hi()
+	private string mName;
+
+	//////////////////////////////////////////////
+	public Google(string name)
 		{
-		System.Console.WriteLine("Hi Google.");
+		mName=name;
+		}
+
+	//////////////////////////////////////////////
+	public void SayHello()
+		{
+		System.Console.WriteLine("Hello from {0}",mName);
 		}
 	}
-}
+
