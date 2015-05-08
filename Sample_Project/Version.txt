@@ -1,8 +1,13 @@
 ﻿Version History
 
-V0.1
+v0.1
 This class Google accepts a string and will Print out Hello greeting.
 
-V0.2
+v0.2
 	-Added a references to System.Windows.Forms
 	-Modified Google Class to perform a popup Hello Greeting
+
+v0.3
+	-Added a Person Class
+	-Added a collection class Group
+	-update MainStartup
