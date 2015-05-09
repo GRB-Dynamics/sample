@@ -23,6 +23,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
     <PlatformTarget>x86</PlatformTarget>
@@ -34,6 +35,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="FrmPersonUpdateSalary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPersonUpdateSalary.Designer.cs">
+      <DependentUpon>FrmPersonUpdateSalary.cs</DependentUpon>
+    </Compile>
     <Compile Include="Google.cs" />
     <Compile Include="Group.cs" />
     <Compile Include="MainStartup.cs" />
@@ -41,11 +48,19 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="ReadMe.txt" />
     <Content Include="Version.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FrmPersonUpdateSalary.resx">
+      <DependentUpon>FrmPersonUpdateSalary.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

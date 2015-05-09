@@ -17,7 +17,6 @@ public class MainStartup
 		tariq.UpdateSalary();
 		
 		grp.Print();
-
 		grp.SayHello();		
 		}
 	}

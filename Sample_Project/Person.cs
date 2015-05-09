@@ -6,7 +6,7 @@ using System.Windows.Forms;
 /// <summary>
 /// Person Represents a Person
 /// </summary>
-class Person
+public class Person
 	{
 	private string mName;
 	private decimal mSalary;
@@ -36,6 +36,7 @@ class Person
 	/////////////////////////////////////
 	public void UpdateSalary()
 		{
+		/* Old Code
 		Console.Write("Please Enter New Salary for {0} : ",mName);
 		
 		string newsalarystr=Console.ReadLine();
@@ -47,6 +48,9 @@ class Person
 			}
 
 		mSalary = newsalary;
+		 */
+		FrmPersonUpdateSalary frmupdatesalary=new FrmPersonUpdateSalary(this);
+		frmupdatesalary.ShowDialog();
 		}
 
 
@@ -56,5 +60,24 @@ class Person
 		return mSalary;
 		}
 
+
+	//////////////////////////////////////
+	public void SetSalary(decimal salary)
+		{
+		if(salary<0)
+			{
+			throw new Exception("Salary cannot be negative");
+			return;
+			}
+
+		mSalary = salary;
+		
+		}
+
+	//////////////////////////////////////
+	public string GetName()
+		{
+		return mName;
+		}
 	}
 

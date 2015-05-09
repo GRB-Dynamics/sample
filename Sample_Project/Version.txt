@@ -11,3 +11,6 @@ v0.3
 	-Added a Person Class
 	-Added a collection class Group
 	-update MainStartup
+
+v0.4
+	Lets add a user interface for updating user salary
